@@ -40,9 +40,12 @@ public class Calculator {
                 }
                 break;
             default:
-                System.out.println("Invalid operator!");
+                System.out.println("Invalid option");
+                System.out.println("Select a valid option");
         }
         
         scanner.close();
     }
 }
+// Calculator
+
